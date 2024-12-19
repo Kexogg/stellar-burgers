@@ -48,10 +48,6 @@ export const BurgerIngredients: FC = () => {
       titleSaucesRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  // if (error) {
-  //   return <p>Упс... что-то пошло не так...</p>;
-  // }
-
   if (loading) {
     return <Preloader />;
   }
