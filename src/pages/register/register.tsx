@@ -1,6 +1,6 @@
 import { FC, SyntheticEvent, useState } from 'react';
 import { RegisterUI } from '@ui-pages';
-import { TRegisterData } from '@api';
+import { TRegisterData } from '../../utils/burger-api';
 import { useDispatch } from '../../services/store';
 import { register } from '../../services/slices/userSlice';
 
